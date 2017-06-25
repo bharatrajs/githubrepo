@@ -16,11 +16,7 @@ public class NewTest {
 	public void testEasy() {	
 	driver.get("http://demo.guru99.com/selenium/guru99home/");  
 	String title = driver.getTitle();				 
-	System.out.println("**************************************************************");
-	System.out.println("TEST 1");
-	System.out.println("TEST 2");
-	System.out.println("Added Branch1");
-	System.out.println("back to branch1 work");
+	System.out.println("title is "+title);
 }	
 	@BeforeTest
 	public void beforeTest() {
