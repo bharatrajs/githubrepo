@@ -19,6 +19,7 @@ public class NewTest {
 	Assert.assertTrue(title.contains("Demo Guru99 Page")); 	
 	System.out.println("TEST 1");
 	System.out.println("TEST 2");
+	System.out.println("Added Branch1");
 }	
 	@BeforeTest
 	public void beforeTest() {
