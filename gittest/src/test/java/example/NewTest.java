@@ -10,13 +10,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+/*changed website 
+ * to rediff.com*/
+
 public class NewTest {
 	 WebDriver driver;	
 	@Test				
 	public void testEasy() {	
-	driver.get("http://demo.guru99.com/selenium/guru99home/");  
+	driver.get("http://rediff.com/");  
 	String title = driver.getTitle();				 
-	System.out.println("title is "+title);
+	System.out.println("changes website to rediff");
 }	
 	@BeforeTest
 	public void beforeTest() {
