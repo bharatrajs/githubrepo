@@ -19,7 +19,7 @@ public class NewTest {
 	public void testEasy() {	
 	driver.get("http://rediff.com/");  
 	String title = driver.getTitle();				 
-	System.out.println("changes website to rediff");
+	System.out.println("get title "+title);
 }	
 	@BeforeTest
 	public void beforeTest() {
