@@ -20,6 +20,7 @@ public class NewTest {
 	driver.get("http://rediff.com/");  
 	String title = driver.getTitle();				 
 	System.out.println("get title "+title);
+	System.out.println("added new sysout");
 }	
 	@BeforeTest
 	public void beforeTest() {
