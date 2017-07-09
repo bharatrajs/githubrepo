@@ -21,8 +21,7 @@ public class NewTest {
 	String title = driver.getTitle();				 
 	System.out.println("get title "+title);
 	System.out.println("added new sysout");
-	System.out.println("added new sysout");
-}	
+	}	
 	@BeforeTest
 	public void beforeTest() {
 		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\geckodriver\\geckodriver.exe");
